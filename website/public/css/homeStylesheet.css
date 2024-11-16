@@ -8,6 +8,46 @@
   padding-bottom: 60px;
 }
 
+/* Navigation Bar */
+#navbar {
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center; /* Center the tabs horizontally */
+  padding: 10px 0; /* Vertical spacing for the bar */
+}
+
+/* Navigation Links */
+#navbar ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Align links horizontally */
+  gap: 20px; /* Add space between tabs */
+}
+
+#navbar ul li {
+  display: inline-block; /* Inline list items */
+}
+
+#navbar ul li a {
+  color: black; /* Default text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  font-family: Arial, sans-serif; /* Font family */
+  padding: 10px 15px; /* Add padding around the links */
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+#navbar ul li a:hover {
+  background-color: lightblue; /* Light blue hover effect */
+  border-radius: 4px; /* Rounded corners on hover */
+}
+
 /* research formatting */
 .research-image {
   background-image: url("../img/project_images/sos_hex.png");
@@ -90,9 +130,10 @@
 }
 
 #name {
-  padding-top: 1rem;
-  font-size: 1.5em;
-  margin-bottom: 0.8em;
+  display: flex; /* Align items horizontally */
+  align-items: center; /* Center items vertically */
+  font-size: 1.5em; /* Adjust as needed */
+  gap: 8px; /* Space between icon and text */
 }
 
 #news {
