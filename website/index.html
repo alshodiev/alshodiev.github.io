@@ -15,31 +15,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Source+Code+Pro:wght@600;700&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" sizes="32x32">
 </head>
+
 <body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="research/index.html">Research</a></li> <!-- Links to the research page -->
+            <li><a href="projects/index.html">Projects</a></li> <!-- Links to the projects page -->
+            <li><a href="blog/index.html">Blog</a></li> <!-- Links to your CV file -->
+            <li><a href="cv/CV.pdf" target="_blank">CV</a></li> <!-- Links to your CV file -->
+        </ul>
+    </nav>
+
+    <!-- Existing Content -->
     <div id="sidebar">
         <div id="sidebar-box">
             <h1 id="name"> 
-                Al Shodiev
+                <svg id="cube" height="30" width="30">
+                    <path id="cube_path" stroke-width="1" stroke-linejoin="round" fill="none"/>
+              </svg>Al Shodiev
             </h1> 
             <img src="/website/public/img/portrait/headshot.jpeg" alt="Portrait" style="width:300px; height:auto;">
             <div id="info">
                 <h2>A.B. Applied Mathematics and Biology, Secondary in Statistics</h2>
-				<br>
-				<br>
+                <br>
+                <br>
                 <div id="social-icons" style="display: flex; gap: 10px;">
-                    <!-- Mail Icon -->
-					<a href="mailto:alshodiev@alumni.harvard.edu" target="_blank" aria-label="Email">
-    					<img src="/website/public/img/icons/icons8-mail.svg" alt="Mail Icon" style="width:30px; height:auto;">
-					</a
-					<!-- Github Icon -->
-                    <a href="https://github.com/alshodiev" target="_blank" aria-label="Google Scholar">
+                    <!-- Social Icons -->
+                    <a href="mailto:alshodiev@alumni.harvard.edu" target="_blank" aria-label="Email">
+                        <img src="/website/public/img/icons/icons8-mail.svg" alt="Mail Icon" style="width:30px; height:auto;">
+                    </a>
+                    <a href="https://github.com/alshodiev" target="_blank" aria-label="Github">
                         <img src="/website/public/img/icons/icons8-github-50.png" alt="Github Icon" style="width:30px; height:auto;">
                     </a>
-					<!-- LinkedIn Icon -->
                     <a href="https://www.linkedin.com/in/alshodiev/" target="_blank" aria-label="LinkedIn">
                         <img src="/website/public/img/icons/icons8-linkedin.svg" alt="Linkedin Icon" style="width:30px; height:auto;">
                     </a>
-					<!-- Google Scholar Icon -->
                     <a href="https://scholar.google.com" target="_blank" aria-label="Google Scholar">
                         <img src="/website/public/img/icons/icons8-google-scholar.svg" alt="Google Scholar Icon" style="width:30px; height:auto;">
                     </a>
@@ -47,10 +58,11 @@
             </div>
         </div>
     </div>
+    
 
     <div id="main">
         <p id="about">
-            Hi, I'm a Harvard Alumnus'24 with a degree in Applied Mathematics with a focus in Biology. Currently, I am a working on a research paper with <a href="https://churchlab.hms.harvard.edu/church-lab-member/al-shodiev" style="color: blue;">Church Lab</a> at Harvard Medical School, advised by Felix Radford and Michaël Moret, where I am working on expanding the genetic code using deep learning.
+            Hi, I'm a Harvard Alumnus '24 with a degree in Applied Mathematics and Biology. Currently, I am a working on a research paper with <a href="https://churchlab.hms.harvard.edu/church-lab-member/al-shodiev" style="color: blue;">Church Lab</a> at Harvard Medical School, advised by Felix Radford and Michaël Moret, where I am working on expanding the genetic code using deep learning.
         </p>
 		<br>
         <h2 id="research">Research</h2>
@@ -64,15 +76,6 @@
         </div>
 
 
-        <h2 id="projects">
-			<a href="CV.pdf" class="ext_link">Curriculum Vitae
-				<svg viewBox="0 0 350 350" class="link_arrow"> 
-					<line class="st0" x1="25" y1="325" x2="325" y2="25"/>
-					<path class="st0" d="M325,25"/>
-					<polyline class="st1" points="110,25 325,25 325,240 "/>
-				</svg>
-			</a>
-		</h2>	
 		<br>
 		<br>
 		<p>

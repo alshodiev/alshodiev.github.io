@@ -1,5 +1,5 @@
 :root { 
-	--accent_color: #ed7402;
+	--accent_color: #02c2ed;
 /*	--callout_color: 136, 0, 255;*/
 	--callout_color: 181, 171, 255;
 }
@@ -13,6 +13,15 @@ body {
 #projects > .ext_link:hover .link_arrow {
 	stroke: white;
 	animation: bluewhite 0.2s;
+}
+
+/* Navbar background for dark mode */
+#navbar {
+	background-color: var(--navbar_bg_dark);
+}
+
+#navbar ul li a {
+	color: var(--text_color_dark); /* Ensure navbar links are white */
 }
 
 #portrait {
