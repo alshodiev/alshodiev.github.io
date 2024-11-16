@@ -1,43 +1,38 @@
 /* nav bar */
-#nav-bar > h2 {
-    margin: 0;
-    font-size: 1em;
-}
-
-#nav-bar > h2 > a {
-    color: white;
-    text-decoration: none; /* Remove underline */
-}
-
-#nav-bar > h2 > a:hover {
-    cursor: pointer;
-    animation: none; /* Remove the animation if not needed */
-    color: black;
-    background-color: #3399FF; /* Light blue background on hover */
-    border-radius: 5px; /* Rounded corners for better appearance */
-    padding: 5px; /* Add padding to enhance hover effect */
-}
-
-#home_link:hover #home_icon {
-    animation: none; /* Disable stroke animation */
-    stroke: black;
-}
-
 #nav-bar {
-    position: fixed;
-    top: 10px;
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust to center */
-    z-index: 1;
-    background-color: var(--accent_color);
-    color: white;
-    padding: 5px 20px; /* Adjust padding for better appearance */
-    border-radius: 15px;
+    display: flex; /* Make the navbar a flex container */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Align items vertically */
+    background-color: transparent; /* No background color */
+    padding: 10px 0; /* Add padding around the navbar */
+}
 
-    display: flex;
-    gap: 10px; /* Space between navbar items */
-    align-items: center;
-    justify-content: center;
+#nav-bar ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    display: flex; /* Arrange list items horizontally */
+    gap: 20px; /* Add space between the items */
+}
+
+#nav-bar ul li {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+    font-size: 1.1em; /* Adjust font size */
+    font-family: Arial, sans-serif; /* Use a clean font */
+    padding: 10px 15px; /* Add padding around the text */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+#nav-bar ul li a:hover {
+    background-color: lightblue; /* Light blue background on hover */
+    border-radius: 5px; /* Rounded corners */
+    color: black; /* Change text color on hover */
 }
 
 #home_icon {
@@ -55,37 +50,50 @@
 }
 
 /* cube at the top of the screen aligned to the left of the title in outer_container */
+
 #cube {
-    position: sticky;
-    top: 5px;
-    transform: translate(-50px, 34px);
-    padding-bottom: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  /*position: fixed;*/
+  top: 5px;
+  /*left: calc(7.5rem - 50px);*/
+  transform: translate(-50px, 34px);
+  padding-bottom: 0;
+
 }
 
 #cube-box {
-    display: flex;
-    transform: translate(-50px, 0);
+  display: flex;
+  transform: translate(-50px, 0);
 }
 
-/* outer container and layout */
 #outer_container {
-    padding-top: 5rem;
-    margin: 0 auto;
-    width: calc(100vw - 15rem);
+	  transform: translate(0, -30px);
+}
+
+
+/* outercontainer/other basic layout */
+
+#outer_container {
+  padding-top: 5rem;
+  margin: 0 auto;
+  width: calc(100vw - 15rem);
 }
 
 @media screen and (min-width: 1350px) {
-    #outer_container {
-        width: 1040px;
-    }
+	#outer_container {
+	    width: 1040px;
+	}
 }
 
 @media screen and (max-width: 510px) {
-    #outer_container {
-        width: 80vw;
-    }
+	#outer_container {
+	   width: 80vw;
+	}
 
-    #cube {
-        transform: translate(-35px, 34px);
-    }
+	#cube {
+		transform: translate(-35px, 34px);
+	}
 }
+
+
