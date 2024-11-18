@@ -3,5 +3,19 @@
 "conference": "Harvard Medical School",
 "year": 2024,
 "image": "clm.png",
-"links": { "PDF": "papers/blank.pdf", "Code": "https://github.com/alshodiev/Seq2Amino"}
-}]
+"links": { "Under Review": "[]", "Code": "https://github.com/alshodiev/Seq2Amino"}
+},
+{"title": "Collision Detection of Deformable Meshes",
+"authors": [ "Advisor: Prof. Melanie Weber"],
+"conference": "Harvard SEAS",
+"year": 2024,
+"image": "def_coll.png",
+"links": { "Paper Forthcoming": "[]", "Code": "https://github.com/alshodiev"}
+},
+{"title": "Neural Networks for 3D Sweeping with Discontinuities",
+"authors": [ "Advisor: Prof. Melanie Weber"],
+"conference": "Harvard SEAS",
+"year": 2024,
+"image": "3d_sweeping.png",
+"links": { "Paper Forthcoming": "", "Code": "https://github.com/alshodiev"}
+} ]
