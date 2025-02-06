@@ -1,0 +1,7 @@
+[{"title": "Transfer RNA Sequence-Based Prediction of Aminoacylation Percentages Using Deep Learning",
+"authors": [ "Advisor: Felix Radford and Michaël Moret"],
+"conference": "Harvard Medical School",
+"year": 2024,
+"image": "clm.png",
+"links": { "Under Review": "[]", "Code": "https://github.com/alshodiev/Seq2Amino"}
+}]
