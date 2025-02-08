@@ -423,3 +423,47 @@ function positionElemHelper(element, matrixRep, columns, rowThreshold) {
 	return position
 }
 
+function createProjectElement(project) {
+	const projectDiv = document.createElement('div');
+	projectDiv.className = 'project-item';
+  
+	// Create title and paper link container
+	const titleContainer = document.createElement('div');
+	titleContainer.className = 'title-container';
+	
+	const title = document.createElement('h3');
+	title.textContent = project.title;
+	titleContainer.appendChild(title);
+  
+	if (project.paper_link) {
+	  const paperLink = document.createElement('a');
+	  paperLink.href = project.paper_link;
+	  paperLink.textContent = 'paper';
+	  paperLink.className = 'paper-link';
+	  titleContainer.appendChild(paperLink);
+	}
+  
+	projectDiv.appendChild(titleContainer);
+  
+	// Create description
+	const description = document.createElement('p');
+	description.textContent = project.description;
+	projectDiv.appendChild(description);
+  
+	// Create tags container
+	if (project.technologies && project.technologies.length > 0) {
+	  const tagsContainer = document.createElement('div');
+	  tagsContainer.className = 'project-tags';
+	  
+	  project.technologies.forEach(tech => {
+		const tag = document.createElement('span');
+		tag.className = 'tech-tag';
+		tag.textContent = tech;
+		tagsContainer.appendChild(tag);
+	  });
+  
+	  projectDiv.appendChild(tagsContainer);
+	}
+  
+	return projectDiv;
+  }
