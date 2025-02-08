@@ -223,3 +223,41 @@
 }
 
 /*# sourceMappingURL=homeStylesheet.css.map */
+
+/* Navbar styling */
+#nav-bar {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Align items vertically */
+  width: 100%; /* Ensure the navbar spans full width */
+  padding: 10px 0; /* Padding around the navbar */
+  background-color: transparent;
+}
+
+#nav-bar ul {
+  list-style: none; /* Remove bullet points */
+  margin: 0 auto; /* Center horizontally */
+  padding: 0;
+  display: flex; /* Arrange items horizontally */
+  gap: 20px; /* Space between items */
+}
+
+#nav-bar ul li {
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar ul li a {
+  text-decoration: none; /* Remove underline */
+  color: white;
+  font-size: 1.1em;
+  font-family: Arial, sans-serif;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+#nav-bar ul li a:hover {
+  background-color: lightblue;
+  border-radius: 5px;
+  color: black;
+}
