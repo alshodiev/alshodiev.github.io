@@ -4,3 +4,4 @@ python3 staticPageGenerator.py
 python3 build_image_manifest.py
 cd ../../..
 echo "Finished running python files."
+

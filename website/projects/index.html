@@ -1,21 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Al Shodiev</title>
-    <link rel="stylesheet" href="../public/css/generalStylesheet.css">
-    <link rel="stylesheet" href="../public/css/navbarStylesheet.css">
-    <link rel="stylesheet" href="../public/css/projectStylesheet.css">
-    <link rel="stylesheet" href="../public/css/projectGridStylesheet.css">
-    <link rel="stylesheet" href="../public/css/darkmodeStylesheet.css">
+	<meta charset="utf-8">
+	<title>Al Shodiev</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="public/css/projectGridStylesheet.css">
+	<link rel="stylesheet" href="public/css/generalStylesheet.css">
+	<link rel="stylesheet" href="public/css/navbarStylesheet.css">
+	<link rel="stylesheet" href="public/css/darkmodeStylesheet.css">
 
-    <script src="../src/js/cube.js"></script>
-    <script src="../src/js/darkmode.js"></script>
-    <script src="../src/js/projectGridGenerator.js"></script>
+	<script src="src/js/cube.js"></script>
+	<script src="src/js/projectGridGenerator.js"></script>
+	<script src="src/js/darkmode.js"></script>
 
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Source+Code+Pro:wght@600;700&display=swap" rel="stylesheet">
+	<link rel="icon" href="favicon.png" sizes="32x32">
 </head>
 <body>
+	<div id="outer_container">
+		<!-- <div id="cube-box">
+			
+		</div> -->
+
+		<svg id="cube" height="30" width="30">
+ 		 	<path id="cube_path" stroke-width="1" stroke-linejoin="round" fill="none"/>
+		</svg>
+
+		<h1 id="projects">Projects</h1>
+		
+		<p id="proj-blurb"> Here is a collection of my current and past projects. </p>
+		<div id = project_grid></div>
+	</div>	
+
+
     <!-- Navigation -->
     <nav>
         <div id="navbar">
@@ -24,14 +41,6 @@
             <a href="/blog">blog</a>
         </div>
     </nav>
-
-    <!-- Main content -->
-    <div class="projects-container">
-        <h1>Projects</h1>
-        <p>A collection of my past and current projects</p>
-
-        <div id="projects-grid"></div>
-    </div>
 
 </body>
 </html>
