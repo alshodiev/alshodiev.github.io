@@ -82,26 +82,28 @@
   	height: auto;
 }
 
-.project-tags {
-	display: flex;
-	gap: 8px;
-	margin-top: 8px;
-  }
-  
-  .tech-tag {
-	background-color: rgba(59, 130, 246, 0.1); /* Light blue background */
-	color: rgb(59, 130, 246); /* Blue text */
-	padding: 4px 12px;
-	border-radius: 16px;
-	font-size: 14px;
-  }
-  
-  .paper-link {
-	color: #666;
-	text-decoration: none;
-	margin-left: 8px;
-  }
-  
-  .paper-link:hover {
-	text-decoration: underline;
-  }
+.projects-container {  /* Add this wrapper class to your projects page */
+    .project-tags {
+        display: flex;
+        gap: 8px;
+        margin-top: 8px;
+    }
+
+    .tech-tag {
+        background-color: rgba(59, 130, 246, 0.1);
+        color: rgb(59, 130, 246);
+        padding: 4px 12px;
+        border-radius: 16px;
+        font-size: 14px;
+    }
+
+    .paper-link {
+        color: #666;
+        text-decoration: none;
+        margin-left: 8px;
+    }
+
+    .paper-link:hover {
+        text-decoration: underline;
+    }
+}
