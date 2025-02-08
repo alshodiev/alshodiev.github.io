@@ -5,6 +5,7 @@
     align-items: center; /* Align items vertically */
     background-color: transparent; /* No background color */
     padding: 10px 0; /* Add padding around the navbar */
+    width: 100%
 }
 
 #nav-bar ul {
@@ -95,5 +96,3 @@
 		transform: translate(-35px, 34px);
 	}
 }
-
-
