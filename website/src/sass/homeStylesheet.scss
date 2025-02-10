@@ -194,6 +194,47 @@ $SIDEBAR_WIDTH: 30;
 }
 
 
+#navbar {
+	display: flex; /* Make the navbar a flex container */
+	justify-content: center; /* Center items horizontally */
+	align-items: center; /* Align items vertically */
+	background-color: transparent; /* Keep background transparent for now */
+	padding: 0px 0; /* Add padding around the navbar */
+	width: 100%;
+  }
+  
+  #navbar ul {
+	list-style: none; /* Remove bullet points */
+	margin: 0; /* Reset margin */
+	padding: 0; /* Reset padding */
+	display: flex; /* Arrange list items horizontally */
+	gap: 20px; /* Add space between the items */
+  }
+  
+  #navbar ul li {
+	margin: 0;
+	padding: 0;
+  }
+  
+  #navbar ul li a {
+	text-decoration: none; /* Remove underline */
+	color: white; /* Black text color by default */
+	background-color: #0073e6; /* Light blue tabs by default */
+	font-size: 1.1em; /* Adjust font size */
+	font-family: Arial, sans-serif; /* Use a clean font */
+	padding: 10px 15px; /* Add padding around the text */
+	border-radius: 5px; /* Rounded corners for tab effect */
+	transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect: darken the background and change text color */
+  #navbar ul li a:hover {
+	background-color: #0073e6; /* Slightly darker blue on hover */
+	color: white; /* White text on hover */
+	cursor: pointer;
+  }
+  
+
 @keyframes blueblack {
   from { color: var(--accent_color); }
   to   { color: black; }
