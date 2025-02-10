@@ -34,7 +34,7 @@ function createProjectGrid(projects) {
         // PDF link
         const pdfFileName = project.pdf_file;
         const pdfLink = document.createElement('a');
-        pdfLink.href = `https://myusername.github.io/assets/${pdfFileName}`;
+        pdfLink.href = `../assets/${pdfFileName}`;
         pdfLink.target = '_blank';
         pdfLink.textContent = ' Link';
         pdfLink.classList.add('pdf_link');
