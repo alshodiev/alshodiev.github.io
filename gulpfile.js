@@ -18,15 +18,6 @@ gulp.task('build_page', function(callback) {
   });
 });
 
-gulp.task('build_pic_manifest', function(callback) {
-  exec('cd website/src/py\npython3 build_image_manifest.py\ncd ../../..', function (err, stdout, stderr) {
-    console.log(stdout.slice(0, -1));
-    if (stderr != 0) {console.log(stderr);}
-    callback(err);
-  });
-});
-
-
 gulp.task('server', function() {
   browserSync.init({
     server: {
@@ -66,4 +57,4 @@ gulp.task('watch', function(callback) {
 
 gulp.task('build_py', gulp.series('date', 'build_page'));
 gulp.task('dev', gulp.series('watch', 'server'));
-gulp.task('build', gulp.series('build_py', 'build_pic_manifest', 'sass'));
+gulp.task('build', gulp.series('build_py', 'sass'));

@@ -1,36 +1,39 @@
 [
     {
-       "title": "Seifert Surface Generator",
-       "image": "seifert_surfaces.jpg",
-       "body": [
-           {
-               "type": "p",
-               "content": "As part of a group project for Ithaca High School/Cornell University math seminar, I created a program in Python which takes a graphical representation of a knot and computes the Seifert Surface, genus, and Alexander Polynomial of the knot."
-           },
-           {
-               "type": "img",
-               "content": "seifert_img_1.jpg"
-           },
-           {
-               "type": "p",
-               "content": "The Seifert Surface of a knot K is a surface that has a boundary equal to K. They're often thought about as the surface that would be formed if the knot was dipped in soap film. This program uses Seifert’s original algorithm to construct a representation of the surface in .obj file format. Seifert surfaces are important since they allow many knot invariants to be calculated. Using values already computed while creating the surface, we can easily compute an upper bound on the genus of the knot, which is defined as the minimal genus over all Seifert surfaces of the knot and is a knot invariant."
-           },
-           {
-               "type": "img",
-               "content": "seifert_img_2.jpg"
-           },
-           {
-               "type": "p",
-               "content": "By computing a differnt knot invariant, Alexander’s Polynomial, we can also compute a lower bound for the genus of the knot. I calculated Alexander's Polynomial by implementing the original algorithm proposed in <a href=\"http://www.ams.org/journals/tran/1928-030-02/S0002-9947-1928-1501429-1/S0002-9947-1928-1501429-1.pdf\" class=\"ext_link\">Alexander’s 1928 paper</a>. With this addition, the program can compute both upper and lower bounds for the genus of the knot, which often co-inside, giving us an exact genus."
-           }
-   
-       ],
-       "git_link": "https://github.com/zoemarschner/math-seminar",
-       "tags": [
-         "Python", "OpenGL"
-       ],
-       "height": 2,
-       "width": 2,
-       "priority": 6
+        "title": "Interactome - Driven Drug Design",
+        "pdf_file" : "am220poster.pdf",
+        "body": [
+            {
+                "type": "p",
+                "content": "Designed Variational AutoEncoders (VAEs) to extract low-dimensional representations of mutation, gene expression, and molecular fingerprints, reducing reliance on large labeled datasets and hand-engineered features. Integrated the Junction Tree VAE for molecule representation learning. Built a supervised deep neural network model to predict drug sensitivity (IC50) by combining the encoded features. Leveraged public datasets including CCLE and GDSC for model training and evaluation, achieving improved performance (R² = 0.81) over traditional models."
+            }
+        ],
+        "git_link": "",
+        "tags": ["Python", "OpenGL"]
+    },
+    {
+        "title": "Deep Learning for Anti-Cancer Drug Response",
+        "pdf_file" : "final_writeup.pdf",
+        "body": [
+            {
+                "type": "p",
+                "content": "Designed Variational AutoEncoders (VAEs) to extract low-dimensional representations of mutation, gene expression, and molecular fingerprints, reducing reliance on large labeled datasets and hand-engineered features. Integrated the Junction Tree VAE for molecule representation learning. Built a supervised deep neural network model to predict drug sensitivity (IC50) by combining the encoded features. Leveraged public datasets including CCLE and GDSC for model training and evaluation, achieving improved performance (R² = 0.81) over traditional models."
+            }
+        ],
+        "git_link": "",
+        "tags": ["JavaScript", "Web Development"]
+    },
+    {
+        "title": "Deep Learning for Anti-Cancer Drug Response",
+        "pdf_file" : "final_writeup.pdf",
+        "body": [
+            {
+                "type": "p",
+                "content": "Designed Variational AutoEncoders (VAEs) to extract low-dimensional representations of mutation, gene expression, and molecular fingerprints, reducing reliance on large labeled datasets and hand-engineered features. Integrated the Junction Tree VAE for molecule representation learning. Built a supervised deep neural network model to predict drug sensitivity (IC50) by combining the encoded features. Leveraged public datasets including CCLE and GDSC for model training and evaluation, achieving improved performance (R² = 0.81) over traditional models."
+            }
+        ],
+        "git_link": "",
+        "tags": ["JavaScript", "Web Development"]
     }
+
 ]

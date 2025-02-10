@@ -2,34 +2,36 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Al Shodiev</title>
+	<title>Al Shodiev - Projects</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS Files -->
 	<link rel="stylesheet" href="public/css/projectGridStylesheet.css">
 	<link rel="stylesheet" href="public/css/generalStylesheet.css">
 	<link rel="stylesheet" href="public/css/navbarStylesheet.css">
 	<link rel="stylesheet" href="public/css/darkmodeStylesheet.css">
 
-	<script src="src/js/cube.js"></script>
-	<script src="src/js/projectGridGenerator.js"></script>
-	<script src="src/js/darkmode.js"></script>
-
+	<!-- Fonts and Icons -->
 	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Source+Code+Pro:wght@600;700&display=swap" rel="stylesheet">
 	<link rel="icon" href="favicon.png" sizes="32x32">
+
+	<!-- JavaScript Files -->
+	<script src="src/js/cube.js" defer></script>
+	<script src="src/js/darkmode.js" defer></script>
+	<script src="src/js/projectGridGenerator.js" defer></script>
 </head>
 <body>
 	<div id="outer_container">
-            <!-- Navigation -->
-    <nav>
-        <div id="navbar">
-            <a href="/">home</a>
-            <a href="/projects" class="active">projects</a>
-            <a href="/blog">blog</a>
-        </div>
-    </nav>
-		<!-- <div id="cube-box">
-			
-		</div> -->
+        <!-- Navigation -->
+		<nav id="nav-bar">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/projects" class="active">Projects</a></li>
+				<li><a href="/blog">Blog</a></li>
+			</ul>
+		</nav>
 
+		<!-- Title Section -->
 		<svg id="cube" height="30" width="30">
  		 	<path id="cube_path" stroke-width="1" stroke-linejoin="round" fill="none"/>
 		</svg>
@@ -39,8 +41,5 @@
 		<p id="proj-blurb"> Here is a collection of my current and past projects. </p>
 		<div id = project_grid></div>
 	</div>	
-
-
-
 </body>
 </html>

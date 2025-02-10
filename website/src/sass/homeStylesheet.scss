@@ -179,12 +179,45 @@ $SIDEBAR_WIDTH: 30;
 	animation: blueblack 0.2s;
 }
 
+/* Footer styling */
+#footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 3rem;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ccc;
+}
+
+#footer p {
+    margin: 0;
+    color: #333;
+}
+
 
 @keyframes blueblack {
   from { color: var(--accent_color); }
   to   { color: black; }
 }
 
+@media only screen and (max-width: 768px) {
+    #navbar {
+        padding: 1rem 0;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar ul li {
+        padding: 0.5rem 0;
+    }
+
+    #main {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
 
 /* make homepage responsive */
 
