@@ -76,7 +76,7 @@
 
 #main {
   margin-left: 30rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-bottom: 5rem;
   margin-right: 7.5rem;
 }
@@ -160,7 +160,7 @@
   justify-content: center; /* Center items horizontally */
   align-items: center; /* Align items vertically */
   background-color: transparent; /* Keep background transparent for now */
-  padding: 0px 0; /* Add padding around the navbar */
+  padding: 20px 0; /* Add padding around the navbar */
   width: 100%;
 }
 
