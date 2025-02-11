@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog - Al Shodiev</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS Files -->
+	<link rel="stylesheet" href="../public/css/generalStylesheet.css">
+	<link rel="stylesheet" href="../public/css/navbarStylesheet.css">
+	<link rel="stylesheet" href="../public/css/darkmodeStylesheet.css">
+    <link rel="stylesheet" href="../public/css/blogGridStylesheet.css">
+
+    <!-- JavaScript Files -->
+	<script src="../src/js/cube.js" defer></script>
+	<script src="../src/js/darkmode.js" defer></script>
+    <script src="../src/js/blogGridGenerator.js" defer></script>
+
+    <!-- Fonts and Stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Source+Code+Pro:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" sizes="32x32">
+
+</head>
+<body>
+    <div id="outer_container">
+        <!-- Navigation -->
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../blog/blog.html" class="active">Blog</a></li>
+            </ul>
+        </nav>
+
+        <!-- Title Section -->
+        <svg id="cube" height="30" width="30">
+            <path id="cube_path" stroke-width="1" stroke-linejoin="round" fill="none" />
+        </svg>
+        <h1 id="blog-title">Blog</h1>
+        
+
+        <p id="blog-intro">Welcome to my blog! Explore recent posts below.</p>
+
+        <!-- Blog post grid -->
+        <div id="blog_grid"></div>
+    </div>
+</body>
+</html>
