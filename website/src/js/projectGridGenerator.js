@@ -31,13 +31,23 @@ function createProjectGrid(projects) {
 		dash.classList.add('dash_separator')
 
 
-        // PDF link
+        // PDF link logic
         const pdfFileName = project.pdf_file;
         const pdfLink = document.createElement('a');
-        pdfLink.href = `../assets/${pdfFileName}`;
+
+        // Check if the file name contains ".pdf"
+        if (pdfFileName.includes('.pdf')) {
+            // Use the assets folder for PDF files
+            pdfLink.href = `../assets/${pdfFileName}`;
+        } else {
+            // Use the value from project.pdf_file as a custom link
+            pdfLink.href = project.pdf_file;
+        }
+
         pdfLink.target = '_blank';
         pdfLink.textContent = ' Link';
         pdfLink.classList.add('pdf_link');
+
 
         // Append title and link to the container
         titleLinkContainer.appendChild(title);

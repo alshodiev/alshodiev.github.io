@@ -1,7 +1,7 @@
 [
     {
       "title": "Trading Flow Manager",
-      "pdf_file": "",
+      "pdf_file": "https://github.com/alshodiev/TradeFlowManager",
       "body": [
         {
           "type": "p",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Volatility Surface Explorer",
-      "pdf_file": "",
+      "pdf_file": "https://github.com/alshodiev/vol_surface_explorer",
       "body": [
         {
           "type": "p",
@@ -39,7 +39,7 @@
     },
     {
       "title": "Culinary Countdown",
-      "pdf_file": "",
+      "pdf_file": "https://github.com/alshodiev/culinary_countdown",
       "body": [
         {
           "type": "p",
@@ -57,7 +57,7 @@
     },
     {
       "title": "Full-stack RAG App",
-      "pdf_file": "",
+      "pdf_file": "https://github.com/alshodiev/rag_app",
       "body": [
         {
           "type": "p",
@@ -75,11 +75,30 @@
     },
     {
       "title": "Polyglot.ai",
-      "pdf_file": "",
+      "pdf_file": "https://github.com/alshodiev/ai_polyglot",
       "body": [
         {
           "type": "p",
           "content": "Machine Learning System designed for language learning based on feedback and ways I teach myself languages."
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "PyTorch",
+        "Sci-kit Learn",
+        "Pyro",
+        "pandas/numpy/scipy",
+        "SLURM",
+        "PySpark"
+      ]
+    },
+    {
+      "title": "Citadel 2024 Spring Invitational Datathon",
+      "pdf_file": "citadel_paper.pdf",
+      "body": [
+        {
+          "type": "p",
+          "content": "Invitational competition where we worked on analyzing datasets in groups. The purpose of the project was to analyze how various energy-related variables, such as fossil fuel consumption and renewable energy production, impact socioeconomic indicators like unemployment and personal income across different U.S. states. My contributions focused on exploratory data analysis (EDA) and feature engineering, including the ideation process of model development such as Random Forest and Lasso Regression. We also trained an LSTM neural network to forecast crude oil prices, achieving a 0.89 R², and provided valuable insights into how oil prices might evolve in the near future. Our team won the 1st place. "
         }
       ],
       "git_link": "",
@@ -111,7 +130,7 @@
       ]
     },
     {
-      "title": "Deep Learning for Anti-Cancer Drug Response",
+      "title": "Anti-Cancer Drug Response Prediction",
       "pdf_file": "final_writeup.pdf",
       "body": [
         {

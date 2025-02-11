@@ -5,12 +5,5 @@
         "description": "A quick dive into the fundamentals of the Black-Scholes option pricing model and its practical applications.",
         "tags": ["Finance", "Black-Scholes", "Mathematics"],
         "link": "blog1.html"
-    },
-    {
-        "title": "Machine Learning in Portfolio Optimization",
-        "date": "January 15, 2025",
-        "description": "Exploring how machine learning techniques can improve portfolio management and optimization strategies.",
-        "tags": ["Machine Learning", "Finance", "Optimization"],
-        "link": "blog2.html"
     }
 ]
