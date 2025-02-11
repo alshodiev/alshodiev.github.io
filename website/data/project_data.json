@@ -1,39 +1,132 @@
 [
     {
-        "title": "Interactome - Driven Drug Design",
-        "pdf_file" : "am220poster.pdf",
-        "body": [
-            {
-                "type": "p",
-                "content": "Designed Variational AutoEncoders (VAEs) to extract low-dimensional representations of mutation, gene expression, and molecular fingerprints, reducing reliance on large labeled datasets and hand-engineered features. Integrated the Junction Tree VAE for molecule representation learning. Built a supervised deep neural network model to predict drug sensitivity (IC50) by combining the encoded features. Leveraged public datasets including CCLE and GDSC for model training and evaluation, achieving improved performance (R² = 0.81) over traditional models."
-            }
-        ],
-        "git_link": "",
-        "tags": ["Python", "OpenGL"]
+      "title": "Trading Flow Manager",
+      "pdf_file": "",
+      "body": [
+        {
+          "type": "p",
+          "content": "Designed and implemented a multi-threaded trading simulation engine with order lifecycle management, position reconciliation, and event-driven strategy replay. Core components include - broker service, position manager, strategy engine, simulation framework. Validated system reliability through Monte Carlo simulations of 10k+ concurrent orders. "
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "Python",
+        "gRPC",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "SQL"
+      ]
     },
     {
-        "title": "Deep Learning for Anti-Cancer Drug Response",
-        "pdf_file" : "final_writeup.pdf",
-        "body": [
-            {
-                "type": "p",
-                "content": "Designed Variational AutoEncoders (VAEs) to extract low-dimensional representations of mutation, gene expression, and molecular fingerprints, reducing reliance on large labeled datasets and hand-engineered features. Integrated the Junction Tree VAE for molecule representation learning. Built a supervised deep neural network model to predict drug sensitivity (IC50) by combining the encoded features. Leveraged public datasets including CCLE and GDSC for model training and evaluation, achieving improved performance (R² = 0.81) over traditional models."
-            }
-        ],
-        "git_link": "",
-        "tags": ["JavaScript", "Web Development"]
+      "title": "Volatility Surface Explorer",
+      "pdf_file": "",
+      "body": [
+        {
+          "type": "p",
+          "content": "Spearheaded development of a 3D visualization tool for implied volatility surfaces in Python and deployed using Streamlit that allows Black-Scholes calculations for configurable set of parameters to identify pricing inefficiencies. Projected the slices of the 3D surface onto the Bures-Wasserstein manifold and used optimal transport to gain deeper insights into volatility shifts. Developed a high-performance server to periodically capture and store the implied volatility surface of configurable option tickers. Implemented the server using Python (Asyncio) for asynchronous tasks and PostgreSQL for efficient time-series data storage. Deployed the system on Docker."
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "Python",
+        "Asyncio",
+        "Manifold learning",
+        "Streamlit",
+        "Docker",
+        "PostgreSQL"
+      ]
     },
     {
-        "title": "Deep Learning for Anti-Cancer Drug Response",
-        "pdf_file" : "final_writeup.pdf",
-        "body": [
-            {
-                "type": "p",
-                "content": "Designed Variational AutoEncoders (VAEs) to extract low-dimensional representations of mutation, gene expression, and molecular fingerprints, reducing reliance on large labeled datasets and hand-engineered features. Integrated the Junction Tree VAE for molecule representation learning. Built a supervised deep neural network model to predict drug sensitivity (IC50) by combining the encoded features. Leveraged public datasets including CCLE and GDSC for model training and evaluation, achieving improved performance (R² = 0.81) over traditional models."
-            }
-        ],
-        "git_link": "",
-        "tags": ["JavaScript", "Web Development"]
+      "title": "Culinary Countdown",
+      "pdf_file": "",
+      "body": [
+        {
+          "type": "p",
+          "content": "AI-powered tool to estimate remaining cooking time from food images in real-time."
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "Python",
+        "Django",
+        "React",
+        "Typescript",
+        "Node.js"
+      ]
+    },
+    {
+      "title": "Full-stack RAG App",
+      "pdf_file": "",
+      "body": [
+        {
+          "type": "p",
+          "content": "Full-stack RAG."
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "Python",
+        "Django",
+        "React",
+        "Typescript",
+        "Node.js"
+      ]
+    },
+    {
+      "title": "Polyglot.ai",
+      "pdf_file": "",
+      "body": [
+        {
+          "type": "p",
+          "content": "Machine Learning System designed for language learning based on feedback and ways I teach myself languages."
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "PyTorch",
+        "Sci-kit Learn",
+        "Pyro",
+        "pandas/numpy/scipy",
+        "SLURM",
+        "PySpark"
+      ]
+    },
+    {
+      "title": "Interactome - Driven Drug Design",
+      "pdf_file": "am220poster.pdf",
+      "body": [
+        {
+          "type": "p",
+          "content": "Created a novel data imputation approach for drug-target interaction matrices by integrating matrix factorization with weighted random walk score propagation on a human protein-protein interactome. Developed and validated the model using k-fold CV, leveraging neural network property predictors and augmenting datasets with random-walk-imputed interactomes. Reduced RMSE by 18.8%, achieving consistent molecular optimization success rates; voted best project in class."
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "PyTorch",
+        "NetworkX",
+        "PyG",
+        "BioPython",
+        "SLURM"
+      ]
+    },
+    {
+      "title": "Deep Learning for Anti-Cancer Drug Response",
+      "pdf_file": "final_writeup.pdf",
+      "body": [
+        {
+          "type": "p",
+          "content": "Designed Variational AutoEncoders (VAEs) to extract low-dimensional representations of mutation, gene expression, and molecular fingerprints, reducing reliance on large labeled datasets and hand-engineered features. Integrated the Junction Tree VAE for molecule representation learning. Built a supervised deep neural network model to predict drug sensitivity (IC50) by combining the encoded features. Leveraged public datasets including CCLE and GDSC for model training and evaluation, achieving improved performance (R² = 0.81) over traditional models."
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "PyTorch",
+        "Sci-kit Learn",
+        "Pyro",
+        "pandas/numpy/scipy",
+        "SLURM",
+        "PySpark"
+      ]
     }
-
-]
+  ]
