@@ -93,6 +93,22 @@
       ]
     },
     {
+      "title": "Distributed Inference Engine",
+      "pdf_file": "",
+      "body": [
+        {
+          "type": "p",
+          "content": ""
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "C++",
+        "Sci-kit Learn"
+      ]
+    },
+
+    {
       "title": "Citadel 2024 Spring Invitational Datathon",
       "pdf_file": "citadel_paper.pdf",
       "body": [
@@ -147,5 +163,24 @@
         "SLURM",
         "PySpark"
       ]
+    },
+    {
+      "title": "Interpretable EEG-Based Seizure Detection",
+      "pdf_file": "seizure_detection.pdf",
+      "body": [
+        {
+          "type": "p",
+          "content": "Developed a novel LSTM-based model for seizure prediction using multichannel EEG recordings from human data, achieving an AUC-ROC of 0.91. Engineered a feature extraction pipeline focusing on time-based interpretable metrics (average, standard deviation, power, activity) across 21 EEG channels, enabling clinician-friendly interpretation."
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "PyTorch",
+        "Sci-kit Learn",
+        "pandas/numpy/scipy"
+      ]
     }
   ]
+
+
+  
