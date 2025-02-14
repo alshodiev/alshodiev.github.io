@@ -5,7 +5,7 @@
       "body": [
         {
           "type": "p",
-          "content": "Designed and implemented a multi-threaded trading simulation engine with order lifecycle management, position reconciliation, and event-driven strategy replay. Core components include - broker service, position manager, strategy engine, simulation framework. Validated system reliability through Monte Carlo simulations of 10k+ concurrent orders. "
+          "content": "Designed and implemented a multi-threaded trading simulation engine with order lifecycle management, position reconciliation, and event-driven strategy replay. Core components include - broker service, position manager, strategy engine, simulation framework. Validated system reliability through Monte Carlo simulations of 1k+ concurrent orders. "
         }
       ],
       "git_link": "",
