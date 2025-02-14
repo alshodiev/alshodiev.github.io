@@ -1,6 +1,6 @@
 // Load blog data and generate blog grid
 window.addEventListener('load', () => {
-    fetch('../data/blog_data.json')
+    fetch('data/blog_data.json')
         .then(response => response.json())
         .then(data => {
             createBlogGrid(data);

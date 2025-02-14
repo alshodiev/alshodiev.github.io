@@ -38,7 +38,7 @@ function createProjectGrid(projects) {
         // Check if the file name contains ".pdf"
         if (pdfFileName.includes('.pdf')) {
             // Use the assets folder for PDF files
-            pdfLink.href = `../assets/${pdfFileName}`;
+            pdfLink.href = `/website//assets/${pdfFileName}`;
         } else {
             // Use the value from project.pdf_file as a custom link
             pdfLink.href = project.pdf_file;
