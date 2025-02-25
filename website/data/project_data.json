@@ -1,5 +1,53 @@
 [
     {
+      "title": "Agentic Graph Explorer",
+      "pdf_file": "https://github.com/alshodiev/AgenticGraphExplorer",
+      "body": [
+        {
+          "type": "p",
+          "content": "currently building"
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "GraphRAG",
+        "NVIDIA cuGraph",
+        "NetworkX",
+        "ArangoDB"
+      ]
+    },
+    {
+      "title": "TPU Graph Performance Prediction",
+      "pdf_file": "https://github.com/alshodiev/TPUGraphLearner",
+      "body": [
+        {
+          "type": "p",
+          "content": "currently building"
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "Python",
+        "GNN",
+        "Reinforcement Learning"
+      ]
+    },  
+    {
+      "title": "LLM-generated Jailbreak Evaluation",
+      "pdf_file": "https://github.com/alshodiev/JailBreakEval",
+      "body": [
+        {
+          "type": "p",
+          "content": "Developed an RL-based adversarial filter using PPO to prevent Mistral-7B from responding to LLM jailbreaks. Fine-tuned RoBERTa for embedding extraction and trained an XGBoost regression head to predict harmfulness scores (0.15 MAE). Utilized scores as reward signals for RL-based safety mechanisms. "
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "Python",
+        "Reinforcement Learning"
+      ]
+    },
+    {
       "title": "Trading Flow Manager",
       "pdf_file": "https://github.com/alshodiev/TradeFlowManager",
       "body": [
@@ -24,7 +72,7 @@
       "body": [
         {
           "type": "p",
-          "content": "Spearheaded development of a 3D visualization tool for implied volatility surfaces in Python and deployed using Streamlit that allows Black-Scholes calculations for configurable set of parameters to identify pricing inefficiencies. Projected the slices of the 3D surface onto the Bures-Wasserstein manifold and used optimal transport to gain deeper insights into volatility shifts. Developed a high-performance server to periodically capture and store the implied volatility surface of configurable option tickers. Implemented the server using Python (Asyncio) for asynchronous tasks and PostgreSQL for efficient time-series data storage. Deployed the system on Docker."
+          "content": "Developed a 3D visualization tool for IV surfaces in Python that allows Black-Scholes calculations for configurable set of parameters to identify pricing inefficiencies. Projected the slices of the 3D surface onto the Wasserstein manifold and used optimal transport to gain deeper insights into volatility shifts. Developed a high-performance server to periodically capture and store the implied volatility surface of configurable option tickers. Implemented the server using Python (Asyncio) for asynchronous tasks and PostgreSQL for efficient time-series data storage. Deployed the system on Docker."
         }
       ],
       "git_link": "",
@@ -38,38 +86,21 @@
       ]
     },
     {
-      "title": "Culinary Countdown",
-      "pdf_file": "https://github.com/alshodiev/culinary_countdown",
-      "body": [
-        {
-          "type": "p",
-          "content": "AI-powered tool to estimate remaining cooking time from food images in real-time."
-        }
-      ],
-      "git_link": "",
-      "tags": [
-        "Python",
-        "Django",
-        "React",
-        "Typescript",
-        "Node.js"
-      ]
-    },
-    {
-      "title": "Full-stack RAG App",
+      "title": "Full-Stack RAG Application",
       "pdf_file": "https://github.com/alshodiev/rag_app",
       "body": [
         {
           "type": "p",
-          "content": "Full-stack RAG."
+          "content": "Full-Stack RAG."
         }
       ],
       "git_link": "",
       "tags": [
         "Python",
+        "LangChain",
+        "Qdrant",
         "Django",
         "React",
-        "Typescript",
         "Node.js"
       ]
     },
@@ -79,32 +110,16 @@
       "body": [
         {
           "type": "p",
-          "content": "Machine Learning System designed for language learning based on feedback and ways I teach myself languages."
+          "content": "currently building"
         }
       ],
       "git_link": "",
       "tags": [
+        "Python",
+        "Speech-To-Text",
+        "Recommendation System",
         "PyTorch",
-        "Sci-kit Learn",
-        "Pyro",
-        "pandas/numpy/scipy",
-        "SLURM",
         "PySpark"
-      ]
-    },
-    {
-      "title": "Distributed Inference Engine",
-      "pdf_file": "",
-      "body": [
-        {
-          "type": "p",
-          "content": ""
-        }
-      ],
-      "git_link": "",
-      "tags": [
-        "C++",
-        "Sci-kit Learn"
       ]
     },
 
@@ -119,12 +134,10 @@
       ],
       "git_link": "",
       "tags": [
+        "Python",
         "PyTorch",
-        "Sci-kit Learn",
-        "Pyro",
-        "pandas/numpy/scipy",
-        "SLURM",
-        "PySpark"
+        "sci-kit learn",
+        "pandas/numpy/scipy"
       ]
     },
     {
@@ -157,11 +170,9 @@
       "git_link": "",
       "tags": [
         "PyTorch",
-        "Sci-kit Learn",
-        "Pyro",
+        "sci-kit learn",
         "pandas/numpy/scipy",
-        "SLURM",
-        "PySpark"
+        "SLURM"
       ]
     },
     {
@@ -176,7 +187,7 @@
       "git_link": "",
       "tags": [
         "PyTorch",
-        "Sci-kit Learn",
+        "sci-kit learn",
         "pandas/numpy/scipy"
       ]
     }
