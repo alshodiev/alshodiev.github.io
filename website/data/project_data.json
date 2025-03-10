@@ -124,6 +124,25 @@
     },
 
     {
+      "title": "Portfolio Construction Using Classification-Constrained Markowitz Optimization",
+      "pdf_file": "",
+      "body": [
+        {
+          "type": "p",
+          "content": "Constructed a portfolio of stocks using multi-classification approach with Markowitz Optimization, constraining asset weights based on predicted directional returns. Formulated quadratic programming problem and solved via Python CVXPY package to get optimal weights. Reduced portfolio volatility by 15% relative to an equal-weighted benchmark. "
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "Python",
+        "PyTorch",
+        "sci-kit learn",
+        "pandas/numpy/scipy"
+      ]
+    },
+
+
+    {
       "title": "Citadel 2024 Spring Invitational Datathon",
       "pdf_file": "citadel_paper.pdf",
       "body": [
