@@ -31,7 +31,8 @@
         "GNN",
         "Reinforcement Learning"
       ]
-    },  
+    },
+
     {
       "title": "LLM-generated Jailbreak Evaluation",
       "pdf_file": "https://github.com/alshodiev/JailBreakEval",
@@ -47,9 +48,45 @@
         "Reinforcement Learning"
       ]
     },
+
+
+    {
+      "title": "Market Replay Simulator",
+      "pdf_file": "https://github.com/alshodiev/MarketSimulator",
+      "body": [
+        {
+          "type": "p",
+          "content": "Created a C++ event-based system to replay historical tick data for testing execution strategies; implemented strategy hooks and latency-aware replay engine with multi-threaded architecture to profile system performance to simulate real market constraints"
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "C++"
+      ]
+    },
+
+    {
+      "title": "Alpha From Alternative Credit Data",
+      "pdf_file": "https://github.com/alshodiev/consumer_data_stock_prediction",
+      "body": [
+        {
+          "type": "p",
+          "content": "Designed a mid-frequency predictive modeling pipeline based on alternative credit to forecast next-day asset returns; generated next-day alpha signals and simulated cumulative generated PnL over time."
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "Python",
+        "Pandas",
+        "Numpy",
+        "sci-kit learn",
+        "Matplotlib"
+      ]
+    },
+
     {
       "title": "Trading Flow Manager",
-      "pdf_file": "https://github.com/alshodiev/TradeFlowManager",
+      "pdf_file": "https://github.com/alshodiev/FlowManager",
       "body": [
         {
           "type": "p",
@@ -59,10 +96,8 @@
       "git_link": "",
       "tags": [
         "Python",
-        "gRPC",
-        "React",
-        "Node.js",
-        "TypeScript",
+        "C++",
+        "Pybind11",
         "SQL"
       ]
     },
@@ -85,61 +120,6 @@
         "PostgreSQL"
       ]
     },
-    {
-      "title": "Full-Stack RAG Application",
-      "pdf_file": "https://github.com/alshodiev/rag_app",
-      "body": [
-        {
-          "type": "p",
-          "content": "Full-Stack RAG."
-        }
-      ],
-      "git_link": "",
-      "tags": [
-        "Python",
-        "LangChain",
-        "Qdrant",
-        "Django",
-        "React",
-        "Node.js"
-      ]
-    },
-    {
-      "title": "Polyglot.ai",
-      "pdf_file": "https://github.com/alshodiev/ai_polyglot",
-      "body": [
-        {
-          "type": "p",
-          "content": "currently building"
-        }
-      ],
-      "git_link": "",
-      "tags": [
-        "Python",
-        "Speech-To-Text",
-        "Recommendation System",
-        "PyTorch",
-        "PySpark"
-      ]
-    },
-
-    {
-      "title": "Portfolio Construction Using Classification-Constrained Markowitz Optimization",
-      "pdf_file": "",
-      "body": [
-        {
-          "type": "p",
-          "content": "Constructed a portfolio of stocks using multi-classification approach with Markowitz Optimization, constraining asset weights based on predicted directional returns. Formulated quadratic programming problem and solved via Python CVXPY package to get optimal weights. Reduced portfolio volatility by 15% relative to an equal-weighted benchmark. "
-        }
-      ],
-      "git_link": "",
-      "tags": [
-        "Python",
-        "PyTorch",
-        "sci-kit learn",
-        "pandas/numpy/scipy"
-      ]
-    },
 
 
     {
@@ -157,6 +137,22 @@
         "PyTorch",
         "sci-kit learn",
         "pandas/numpy/scipy"
+      ]
+    },
+
+    {
+      "title": "Load Balancing Simulation",
+      "pdf_file": "https://github.com/alshodiev/LoadBalancer",
+      "body": [
+        {
+          "type": "p",
+          "content": "This project is a version of proxy-worker architecture I set up for my internship at Omega Therapeutics to simulate dynamic load balancing of servers. The core flow is as follows: Proxy routes Client requests -> Backend worker processess using Omega's internal RPC over sockets. This mini infra-structure resembles the one I built during the internship."
+        }
+      ],
+      "git_link": "",
+      "tags": [
+        "Python",
+        "asyncio"
       ]
     },
     {
